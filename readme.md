@@ -30,34 +30,32 @@ http://localhost:8000/questions/ вернет пустой список, так 
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/1.png "Таблица")
 
-Name: db
+Name: db, далее переходим в пункт Connection
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/2.png "Таблица")
 
-Переходим в пункт Connection
+Hostname/address: db, Urename: postgres, Password: postgrespass
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/3.png "Таблица")
 
-Hostname/address: db, Urename: postgres, Password: postgrespass
+Сначала база данных quiz_db будет неактивна, нужно её раскрыть
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/4.png "Таблица")
 
-Сначала база данных quiz_db будет неактивна, нужно её раскрыть
+Видим таблицы, значит, все прошло успешно
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/5.png "Таблица")
 
-Видим таблицы, значит, все прошло успешно 
+ По ссылке http://localhost:8000/docs видим такой интерфейс. Раскрыв метод POST и нажав try it out протестируем запрос с questions_num: 432
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/6.png "Таблица")
 
-По ссылке http://localhost:8000/docs видим такой интерфейс. Раскрыв метод POST и нажав try it out протестируем запрос с questions_num: 432
+Сервис вернет статус 200 и последний добавленный вопрос
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/7.png "Таблица")
 
-Сервис вернет статус 200 и последний добавленный вопрос
+Можно убедиться и через http://localhost:8000/questions/
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/8.png "Таблица")
-
-Можно убедиться и через http://localhost:8000/questions/
 
 Ctrl + C для остановки проекта
