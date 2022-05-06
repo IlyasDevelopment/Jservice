@@ -54,7 +54,7 @@ Hostname/address: db, Urename: postgres, Password: postgrespass
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/7.png "Таблица")
 
-Можно получить json с данными из БД через http://localhost:8000/questions/
+Убедимся, что данные есть в БД. Столбцы question_answer и jservice_id присутствуют, их видно при сдвиге ползунка. Также можно получить json с данными из БД через http://localhost:8000/questions/
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/8.png "Таблица")
 
