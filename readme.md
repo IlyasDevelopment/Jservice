@@ -36,6 +36,8 @@ Name: db, далее переходим в пункт Connection.
 
 Hostname/address: db, Urename: postgres, Password: postgrespass
 
+Нажимаем save.
+
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/3.png "Таблица")
 
 Сначала база данных quiz_db будет неактивна, нужно её раскрыть.
