@@ -50,11 +50,11 @@ Hostname/address: db, Urename: postgres, Password: postgrespass
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/6.png "Таблица")
 
-Сервис вернет статус 200 и последний добавленный вопрос
+Пример запроса видно ниже. Сервис вернет статус 200 и последний добавленный вопрос
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/7.png "Таблица")
 
-Можно убедиться и через http://localhost:8000/questions/
+Можно получить json с данными из БД через http://localhost:8000/questions/
 
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/8.png "Таблица")
 
