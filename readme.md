@@ -59,3 +59,5 @@ Hostname/address: db, Urename: postgres, Password: postgrespass
 ![alt text](https://github.com/IlyasDevelopment/Jservice/blob/main/screenshots/8.png "Таблица")
 
 Ctrl + C для остановки проекта.
+
+Данные для авторизации можно изменить в файле .env
